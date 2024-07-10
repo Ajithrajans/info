@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/23a3b96f28.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Ajith..png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="Images/Ajith R Resume (3).pdf" download>Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-main">
+                <div class="header-text">
+                    <p>Hello, I'm &#x1F44B;</p>
+                    <h1>Ajith R</h1>
+                    <p>UI/UX Designer <span>|</span> Frontend Developer</p>
+                    <div class="box2"></div>
+                    
+                </div>
+                <div class="box1"></div>
+                <div class="header-text2">
+                    <p>Hello, I'm</p>
+                    <h1>Ajith R</h1>
+                    <p>UI/UX Designer<br><hr class="line">Frontend Developer</p>
+                </div>
+                <div class="header-right">
+                    <img src="Images/image1.png" class="headerpic">
+                    <div class="box3"></div>
+                </div>
+           </div>
+        </div>
+    </div>
+    <!-------About-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/image2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="discription">Passionate and creative UI/UX Designer eager to contribute to innovative design projects. 
+                        Skilled in user research, wireframing, prototyping, and user interface design. Dedicated to creating
+                         intuitive and visually appealing digital experiences that delight users.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li>UI/UX<br><span>Web Interface / App Interface</span></li>
+                            <li>Frontend Develoment<br><span>HTML / CSS / Javascriptt</span></li>
+                            <li>Software<br><span>Figma / Photoshop / Adobe Illustrator / webflow</span> </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education"> 
+                        <ul>
+                            <li>College<br><span>SVS college of Engineering(2years)</span></li>
+                            <li>Course<br><span>GUVI / UIUX</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------Services--------->
+    <!---<div id="My-Services">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="services-list">
+                  <div>
+                    <i class="fa-solid fa-cubes"></i>
+                    <h2>Web Disign</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque 
+                        dignissimos vitae necessitatibus odit praesentium blanditiis
+                         nulla consequuntur. Natus, non deleniti.</p>
+                    <a href="#">Learn more</a>     
+                  </div>
+                  <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>Case Study</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque 
+                        dignissimos vitae necessitatibus odit praesentium blanditiis
+                         nulla consequuntur. Natus, non deleniti.</p>
+                    <a href="#">Learn more</a>     
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>50+ Mini Projects</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque 
+                        dignissimos vitae necessitatibus odit praesentium blanditiis
+                         nulla consequuntur. Natus, non deleniti.</p>
+                    <a href="#">Learn more</a>     
+                  </div>
+            </div>
+        </div>
+    </div>
+------------->
+<!-------portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/mockuuups-macbook-pro-mockup-on-a-table-with-a-plant-in-the-background 2.jpeg">
+                <div class="layer">
+                    <h3>Insurence App landing page</h3>
+                    <p>Created a landing page for an Insurance website named Policy Karoo</p>
+                    <a href="https://www.behance.net/gallery/197486509/Policykaro"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/mockuuups-free-rock-iphone-15-pro-mockup 2.jpeg">
+                <div class="layer">
+                    <h3> UI/UX Case Study</h3>
+                    <p>The case study  is about Fund Raising app. Did a complete research in UX and designed UI.</p>
+                    <a href="https://www.behance.net/gallery/201658055/Fund-Up-Donation-App-UIUX"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/make-you-a-responsive-website-using-html-css-javascript.png" height="575px">
+                <div class="layer">
+                    <h3>50 Mini Frontend Projects</h3>
+                    <p>50 days 50 projects in Udemy in progress.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------contact---------------->
+<div id =contact>
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p class="mail"><i class="fa-solid fa-envelope"></i>jhinganajith@gmail.com</p>
+                <p class="num"><i class="fa-solid fa-address-card"></i>9080755634</p>
+                <div class="social-icons">
+                    <a href="https://www.behance.net/ajithr13"><i class="fa-brands fa-square-behance"></i></a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ajith-r-59256a292/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_.ajithjhingan._/"></i><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="Images/Ajith R Resume (3).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Ajith R</p> 
+    </div>
+</div>
+
+ <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+    /*---------side menu-------*/
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+ </script>  
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwIvaQ5ZPSmKRjZSPLBLKW4Ykua1AsllPY-cGKLN1FDCwa-itpNr57aCg2PphP5L6zeeA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>   
+    
+</body>
+</html>
