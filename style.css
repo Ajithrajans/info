@@ -76,6 +76,7 @@ nav ul li a:hover::after{
 }
 
 .header-text{
+    widt: 500px;
     margin-top:200px;
     font-size:24px;
 }
@@ -404,7 +405,7 @@ nav .fa-solid{
     width: 80px;
     border-radius: 20px;
     margin-top: 290px;
-    margin-left: 300px;
+    margin-left: 250px;
     transform: rotate(37deg);
 }
 
