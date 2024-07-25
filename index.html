@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/23a3b96f28.js" crossorigin="anonymous"></script>
 </head>
@@ -70,7 +70,7 @@
                     <div class="tab-contents" id="Education"> 
                         <ul>
                             <li>College<br><span>SVS college of Engineering(2years)</span></li>
-                            <li>Course<br><span>GUVI / UIUX</span></li>
+                            <li>Course<br><span>GUVI / UIUX (2024)</span></li>
                         </ul>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
     </div>
 ------------->
 <!-------portfolio--------->
-<div id="portfolio">
+<div id="portfolio"> 
     <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
@@ -150,13 +150,13 @@
                 <h1 class="sub-title">Contact Me</h1>
                 <p class="mail"><i class="fa-solid fa-envelope"></i>jhinganajith@gmail.com</p>
                 <p class="num"><i class="fa-solid fa-address-card"></i>9080755634</p>
-                <div class="social-icons">
+                <div class="social-icons" >
                     <a href="https://www.behance.net/ajithr13"><i class="fa-brands fa-square-behance"></i></a>
-                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://github.com/Ajithrajans"><i class="fa-brands fa-square-github"></i></a>
                     <a href="https://www.linkedin.com/in/ajith-r-59256a292/"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/_.ajithjhingan._/"></i><i class="fa-brands fa-square-instagram"></i></a>
                 </div>
-                <a href="Images/Ajith R Resume (3).pdf" download class="btn btn2">Download CV</a>
+                <a href="Images/Ajith R Resume (3).pdf" download class="btn btn2" >Download CV</a>
             </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
@@ -172,9 +172,11 @@
     <div class="copyright">
         <p>Copyright <i class="fa-regular fa-copyright"></i> Ajith R</p> 
     </div>
-</div>
+</div> 
+
 
  <script>
+    
 
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
@@ -209,7 +211,7 @@
     const scriptURL = 'https://script.google.com/macros/s/AKfycbwIvaQ5ZPSmKRjZSPLBLKW4Ykua1AsllPY-cGKLN1FDCwa-itpNr57aCg2PphP5L6zeeA/exec'
     const form = document.forms['submit-to-google-sheet']
     const msg = document.getElementById("msg")
-  
+    
     form.addEventListener('submit', e => {
       e.preventDefault()
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})

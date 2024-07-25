@@ -17,6 +17,7 @@ body{
     font-family: 'ubuntu' , sans-serif;
 }
 
+
 #header{
     width: 100%;
     background-size: cover;
@@ -93,7 +94,7 @@ nav ul li a:hover::after{
    
 }
 .headerpic{
-    width: 453px;
+    width: 490px;
     height: 704px;
  }
 
