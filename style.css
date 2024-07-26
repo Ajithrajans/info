@@ -520,10 +520,10 @@ nav .fa-solid{
     }
 
     nav ul .fa-solid{
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
     }
 
     #about{
